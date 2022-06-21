@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTesting">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="KitezerodhaTest.LoginpageTest1">
+        <methods>
+            <include name="loginWithvalidCredentials"></include>
+         </methods>
+      </class>
+    <class name="KitezerodhaTest.PinPageTest">
+      <methods>
+          <include name="loginWithvalidCredentials"></include>
+      </methods>
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
